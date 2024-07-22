@@ -1,0 +1,13 @@
+The first thing this program will be do is check the PrimeNumbers.txt file to fill up the cache.
+
+PrimeChecker then takes in a username and sequence of numbers from the user, 
+if the sequence entered is valid (contains no spaces, letters or special characters) 
+then the sequence will be broken into multiple different numbers, 
+these numbers are printed onto the terminal so they can be viewed.
+
+These numbers will then be checked to see if they are in the cache as it should only have prime numbers,
+if they are not in the cache then the numbers will be checked to see if they are prime, 
+if they are prime they will then be stored in the cache and printed onto the terminal.
+
+The cache will then be saved to a text file called PrimeNumbers.txt which will be in the 
+same folder as the code, only unique prime numbers will be added to the cache or file.
